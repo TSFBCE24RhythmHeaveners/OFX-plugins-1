@@ -4,7 +4,7 @@ SET CPP_SOURCE="Release"
 mkdir build
 cd build
 
-cmake -G"Visual Studio 16 2019" -Ax64 -Thost=x64 -DCMAKE_PREFIX_PATH=C:\Users\mattc\Source\libtorch ..
+cmake -G"Visual Studio 16 2019" -Ax64 -Thost=x64 -DCMAKE_PREFIX_PATH=C:\Users\mattc\Source\libtorch-cuda-10-2 ..
 cmake --build . --config Release
 
 cd ..
