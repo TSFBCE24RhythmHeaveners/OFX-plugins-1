@@ -2,3 +2,8 @@
 build/*
 *.ofx.bundle
 *.ntp.lock
+
+
+traced_models
+*.pt
+*.ptc
