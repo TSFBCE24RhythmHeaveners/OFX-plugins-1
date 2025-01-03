@@ -10,8 +10,8 @@ cmake --build . --config Release
 cd ..
 md %PLUGIN_NAME%.ofx.bundle\Contents
 move /y build\%CPP_SOURCE% %PLUGIN_NAME%.ofx.bundle\Contents\Win64
-rmdir /s /Q "C:\Program Files\Common Files\OFX\Plugins\%PLUGIN_NAME%.ofx.bundle"
-move /y %PLUGIN_NAME%.ofx.bundle "C:\Program Files\Common Files\OFX\Plugins"
+rmdir /s /Q "C:\Program Files\Common Files\OFX\Plugins\AdjustRGB.ofx.bundle"
+move /y AdjustRGB.ofx.bundle "C:\Program Files\Common Files\OFX\Plugins"
 rmdir /s /Q build
 
 ::"C:\Program Files\Natron\bin\Natron.exe" dev-misc\ims-windows.ntp
